@@ -1,9 +1,25 @@
-/* Add styling for your page here */
-
 .App {
-
-}
-
-.BakeryItem {
+    display: flex;
+    color: rgb(255, 158, 31);
+    background-color: bisque;
+  }
   
-}
+  .bakeryTitle {
+    text-align: center;
+    font-size: 50px;
+
+  }
+  
+  .bakeryDisplay {
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+  
+  .bakeryItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
